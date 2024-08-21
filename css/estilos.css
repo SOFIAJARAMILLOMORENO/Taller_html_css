@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.logo-inicio{
+    width: 10%;
+    padding-left: 45%;
+}
+
+.menu a{
+    background-color:  rgb(250, 149, 220);
+    color: rgb(10, 9, 9);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu a:hover{
+    background-color: rgb(240, 124, 205);
+}
+
+.menu-icon{
+    display: none;
+    font-size: 30px;
+    padding: 14px 16px;
+    cursor: pointer;
+    color: white;
+}
+
+.menu-items{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-items li{
+    flex: 1;
+}
+
+#menu-toggle{
+    display: none;
+}
+
+.imagenn2{
+    width: 30%;
+    display: inline-block;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+.titulo1{
+    text-align: center;
+}
+
+.texto-inicio{
+    background-color: rgb(250, 149, 220);
+    font-family: cursive;
+    padding: 2em;
+    font-size: 2em;
+    margin: 1em;
+}
+
+.cuatro-img{
+    width: 20%;
+    display: inline-block;
+    padding: 1em;
+}
+
+.section4{
+    text-align: center;
+}
+
+.caracteristicas{
+    display: inline-block;
+}
+
+.dos{
+    width: 47%;
+}
+
+.carac{
+    width: 25%;
+    display: inline-block;
+}
+
+.cara{
+    text-align: center;
+    margin: 1em 2em;
+    vertical-align: top;
+    padding: 25px;
+    background-color:  rgb(250, 149, 220) ;
+}
+
+.icon{
+    font-size: 2em;
+    vertical-align: top;
+    padding-right: 1em;
+}
+
+.pagina-pie{
+    text-align: center;
+    margin-top: 4em;
+    background-color: beige;
+}
+
+.pie-pagina{
+    display: inline-block;
+    padding: 20px 40px;
+}
+
+.dos-pagina{
+    vertical-align: top;
+    padding: 50px;
+}
+
+@media screen and (max-width: 599px) {
+    .menu-items{
+        flex-direction: column;
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        color: black;
+    }
+    #menu-toggle:checked + .menu-icon + .menu-items{
+        display: flex;
+    }
+    .menu{
+        background-color: rgb(250, 149, 220) ;
+    }
+    .logo-inicio{
+        width: 20%;
+    }
+    .imagenn2{
+        width: 60%;
+    }
+    .img3{
+        text-align: center;
+    }
+    .texto{
+        width: 95%;
+        text-align: center;
+    }
+    .cuatro-img{
+        width: 30%;
+    }
+    .carac{
+        width: 70%;
+    }
+    /*swimwear*/
+
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 1056px) {
+    .menu-items{
+        flex-direction: column;
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        color: black;
+    }
+    #menu-toggle:checked + .menu-icon + .menu-items{
+        display: flex;
+    }
+    .menu{
+        background-color: rgb(250, 149, 220);
+    }
+    .logo-inicio{
+        width: 20%;
+    }
+    .img3{
+        text-align: center;
+    }
+    .texto{
+        text-align: center;
+        width: 95%;
+    }
+    .cuatro-img{
+        width: 30%;
+    }
+    .carac{
+        width: 70%;
+    }
+}
+/*Hasta aqui llega el inicio*/
+
+.cositas{
+    width: 20%;
+    display: inline-block;
+    margin: 1em;
+}
+
+.swim{
+    text-align: center;
+}
+
+.titu{
+    margin: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cosi{
+    padding-top: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1056px) {
+    .cositas{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .cositas{
+        width: 90%;
+    }
+}
+
+/*Hasta aqui llega el swimwear*/
+
+.titulocoleccion{
+    margin: 2em;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tresimg{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    margin: 1em;
+}
+.coleccion{
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1056px) {
+    .tresimg{
+        margin: none;
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .tresimg{
+        width: 90%;
+    }
+}
+
+/*Hasta aqui llega colecciones*/
+
+.sobre{
+    text-align: center;
+    padding: 4em;
+    margin: 2em 0 3em 0;
+    background-color: rgb(250, 149, 220);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.quees{
+    text-align: center;
+}
+.kora{
+    width: 35%;
+    display: inline-block;
+    margin: 3em;
+    vertical-align: top;
+    font-size: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ko{
+    text-align: left;
+}
+.ess{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1.3em;
+}
+.quee{
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1056px) {
+    .kora{
+        width: 80%;
+        text-align: center;
+    }
+    .koralll{
+        width: 50%;
+    }
+    .kori{
+        display: none;
+    }
+    .ess{
+        padding: 2em;
+    }
+    .final{
+        width: 85%;
+    }
+    .contac{
+        margin: 2em;
+        border: 3px solid  rgb(250, 149, 220) ;
+        padding: 5em;
+    }
+}
+@media screen and (max-width: 599px) {
+    .kora{
+        width: 68%;
+        text-align: center
+    }
+    .kori{
+        display: none;
+    }
+    .ess{
+        width: 60%;
+        padding: 1em;
+    }
+    .final{
+        width: 85%;
+    }
+    .contac{
+        margin: 2em;
+        border: 3px solid  rgb(250, 149, 220);
+        padding: 5em;
+    }
+}
+
+/*Hasta aqui llega sobre nosotros*/
+
+.final{
+    margin: 3em 1em;
+    text-align: center;
+}
+.contac{
+    width: 30%;
+    vertical-align: top;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ayuda{
+    display: inline-block;
+}
+.con{
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 2em;
+    border: 3px solid rgb(250, 149, 220) ;
+}
+.boton{
+    padding: 1em;
+    background-color:rgb(250, 149, 220) ;
+    border: 1px solid rgb(235, 25, 172);
+}
+
